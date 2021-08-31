@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --main-bg-color: #1d6ded;
+}
+header {
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "STIX Two Math", serif;
+  width: 100%;
+  position: sticky;
+  top: 0;
+}
+nav {
+  display: flex;
+  
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 78px;
+  padding: 0 19px;
+}
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  /* display: inline-block; */
+  list-style: none;
+  padding: 18px 21px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  font-weight: bolder;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 30vw;
+  height: 25px;
+  border-radius: 5px;
+  margin: 0 7px 0 35px;
+  padding: 0 1px 0 11px;
+}
+.search button {
+  font-family: "STIX Two Math", serif;
+  font-weight: 900;
+}
+.container {
+  min-height: calc(100vh - 58px - 12vh);
+}
+.slider {
+  width: 80vw;
+  margin: 12px auto;
+  overflow: hidden;
+}
+.card {
+  max-width: 91vw;
+  margin: 38px auto;
+  font-family: 'Nunito', sans-serif;
+  background-color: whitesmoke;
+}
+.card h2{
+  font-family: 'Nunito', sans-serif;
+}
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow: hidden;
+}
+.card-items{
+  width:14vw;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+footer {
+  height: 12vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  font-family: "STIX Two Math", serif;
+}
